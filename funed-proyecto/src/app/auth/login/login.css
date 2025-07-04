@@ -1,0 +1,65 @@
+/* Centra el formulario en la pantalla */
+form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos generales */
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+div {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #444;
+  font-weight: 500;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el botón secundario */
+button:last-of-type {
+  background-color: transparent;
+  color: #007bff;
+  margin-top: 1rem;
+  border: 1px solid #007bff;
+}
+
+button:last-of-type:hover {
+  background-color: #007bff;
+  color: white;
+}

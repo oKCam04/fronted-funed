@@ -1,0 +1,22 @@
+<h1>FUNED</h1>
+<h2>Iniciar sesión</h2>
+
+<form (ngSubmit)="onLogin()">
+  <input
+    type="text"
+    name="username"
+    [(ngModel)]="form.username"
+    placeholder="Usuario"
+    required
+  />
+  <input
+    type="password"
+    name="password"
+    [(ngModel)]="form.password"
+    placeholder="Contraseña"
+    required
+  />
+  <button type="submit">Iniciar Sesión</button>
+</form>
+
+<button (click)="goToRegister()">¿No tienes cuenta? Regístrate</button>
